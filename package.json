@@ -1,0 +1,36 @@
+{
+  "name": "inner-mind-oasis",
+  "version": "1.0.0",
+  "description": "Mental Health Website with Mood Tracking and Functions",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server/index.js",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayushjerath/InnerMindOasis.git"
+  },
+  "author": "Ayush Jerath",
+  "license": "ISC",
+  "dependencies": {
+    "apos-to-lex-form": "^1.0.5",
+    "body-parser": "^1.20.2",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^9.17.2",
+    "firebase-admin": "^11.5.0",
+    "firebase-tools": "^13.6.0",
+    "mongoose": "^7.0.2",
+    "morgan": "^1.10.0",
+    "natural": "^6.2.0",
+    "openai": "^3.2.1",
+    "spelling-corrector": "^3.0.0",
+    "stopword": "^2.0.8"
+  }
+}
