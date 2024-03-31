@@ -119,7 +119,7 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route path="/dashboard/resources" element={<Resources />} />
+          <Route path="/dashboard/resources" element={<Resources/>}/>
           <Route path="/login" element={<LogIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
